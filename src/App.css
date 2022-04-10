@@ -1,0 +1,48 @@
+.movie-poster{
+  width:380px;
+  height:500px;
+  object-fit: cover;
+  }
+  .movie-container{
+    width: 380px;
+    height:min-content;
+  }
+  .movie-specs{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .movie-name{
+    margin:0;
+    font-size: 24px;
+  }
+  .movie-summary{
+    margin-top:0 ;
+  }
+  .movie-rating{
+    font-size: 20px;
+  }
+  .movie-list{
+    display:flex;
+    gap:16px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .counter-container{
+    display: flex;
+    gap:10px;
+  }
+  .like-dislike{
+    font-size: 20px;
+  }
+  .add-movie-form{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    margin:15px;
+  }
+
+  .route-contaner{
+    margin:20px;
+
+  }
